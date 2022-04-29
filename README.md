@@ -1,7 +1,5 @@
 # Netlify Server
 
-======
-
 ## First try
 
 ### Upload build folder to github and deploy on Netlify.
