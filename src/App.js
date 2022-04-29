@@ -12,6 +12,7 @@ function Header(props) {
         >
           {props.title}
         </a>
+        <div>{props.testWithoutBuild}</div>
       </h1>
     </header>
   );
@@ -254,6 +255,7 @@ function App() {
         onChangeMode={() => {
           setMode('WELCOME');
         }}
+        testWithoutBuild='This will be shown only in src, not in a build folder'
       ></Header>
       <Nav
         topics={topics} //#id2
