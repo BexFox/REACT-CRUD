@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "homepage": "http://bexfox.github.io/REACT-CRUD/",
-  "private": false,
+  "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
